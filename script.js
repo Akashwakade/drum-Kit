@@ -61,7 +61,16 @@ function playSound(input){
                         case 'l':
                             let lSound = new Audio('./sounds/kick-bass.mp3')  
                             lSound.play();
-                            break; 
+                            break;  
+                            case 'h':
+                            let hSound = new Audio('./sounds/Good_Morning_to_All(chosic.com).mp3')  
+                            setTimeout(() => {
+                                hSound.play();
+                               
+                            }, 100);
+                            break;
+                          
+                          
         // finish the code.
 
         default:
